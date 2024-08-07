@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    margin: 0;
+    font-size: 22px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styles */
+.header, .footer {
+    padding: 10px 0;
+    background-color: rgb(221, 103, 82);
+}
+
+.header-container, .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-link {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-left: 50px;
+}
+
+.header-link:hover, .header-link:focus {
+    color: blanchedalmond;
+}
+
+/* Hero Section */
+.hero, .dough, .filling {
+    padding: 50px 0;
+}
+
+.hero-container, .dough-container, .filling-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title, .dough-title, .filling-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(113, 27, 12);
+}
+
+.hero-img, .filling-img {
+    width: 550px;
+}
+
+.hero-img {
+    margin-right: 50px;
+}
+
+.dough {
+    background-color: rgb(255, 167, 123);
+}
+
+.dough-img {
+    width: 500px;
+}
+
+.filling-list, .dough-list {
+    list-style: disc;
+    margin-left: 50px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-img {
+    width: 30px;
+    margin-left: 20px;
+}
